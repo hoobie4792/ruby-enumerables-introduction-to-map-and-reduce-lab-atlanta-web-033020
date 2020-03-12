@@ -25,3 +25,13 @@ def map_to_double(source_array)
   return arr
 end
 
+def map_to_double(source_array)
+  index = 0
+  arr = []
+  
+  while index < source_array.length do
+    arr.push(source_array * 2)
+  end
+  
+  return arr
+end
