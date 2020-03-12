@@ -32,7 +32,7 @@ def map_to_square(source_array)
   arr = []
   
   while index < source_array.length do
-    arr.push(source_array[inde] ** 2)
+    arr.push(source_array[index] ** 2)
     index += 1
   end
   
