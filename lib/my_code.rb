@@ -4,7 +4,7 @@ def map_to_negativize(source_array)
   arr = []
   
   while index < source_array.length do
-    arr.push(source_array * -1)
+    arr.push(source_array[index] * -1)
     index += 1
   end
   
@@ -20,7 +20,7 @@ def map_to_double(source_array)
   arr = []
   
   while index < source_array.length do
-    arr.push(source_array * 2)
+    arr.push(source_array[index] * 2)
     index += 1
   end
   
@@ -32,7 +32,7 @@ def map_to_square(source_array)
   arr = []
   
   while index < source_array.length do
-    arr.push(source_array ** 2)
+    arr.push(source_array[inde] ** 2)
     index += 1
   end
   
